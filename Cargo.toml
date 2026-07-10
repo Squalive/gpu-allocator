@@ -28,7 +28,7 @@ thiserror = { version = "2.0", default-features = false }
 presser = { version = "0.3", default-features = false }
 # Only needed for Vulkan.  Disable all default features as good practice,
 # such as the ability to link/load a Vulkan library.
-ash = { git = "https://github.com/ash-rs/ash.git", optional = true, default-features = false, features = ["debug"] }
+ash = { git = "https://github.com/ash-rs/ash.git", rev = "a9a1fb17e98a0cde146caada86200d809306200d", optional = true, default-features = false, features = ["debug"] }
 # Only needed for visualizer.
 egui = { version = ">=0.24, <=0.27", optional = true, default-features = false }
 egui_extras = { version = ">=0.24, <=0.27", optional = true, default-features = false }
